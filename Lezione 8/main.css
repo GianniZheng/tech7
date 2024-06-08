@@ -1,0 +1,43 @@
+/*
+p{
+    color: rebeccapurple;
+}
+#first-p{
+ color: red;
+}
+#second-p{
+    color: blue;
+}
+.first-title{
+    color: green;
+}
+.second-title{
+    color: yellow;
+}
+.card{
+    width: 150px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.786);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card > img{
+    width: 100%;
+    height: 150px;
+}
+*/
+.text {
+
+    /*color:red;
+    color: rgb(255, 0, 0);
+    color: rgba(255, 0, 0.5);
+    */
+    color: #7efff5;
+    background-color: #0000ff;
+    display: inline;
+}
+.card{
+    background-color: red;
+    width: 200px;
+    height: 300px;
+}
