@@ -1,33 +1,23 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 body {
-    margin: 0;
     height: 100vh;
     overflow: hidden;
 }
 
-#header {
-    width: 100%;
-    height: 10%;
-    border-bottom: 1px solid black;
-}
 
 #main {
+    margin-top: 10%;
     width: 100%;
     height: 80%;
     padding: 50px;
-    overflow-y: auto;
     display: flex;
     justify-content: center;
 }
 
-#footer {
-    width: 100%;
-    height: 10%;
-    border-top: 1px solid black;
-}
 /*
 .card {
     width: 200px;
@@ -48,18 +38,17 @@ body {
 */
 
 .twitterCard {
-    width: 300px;
+
+    width: 40%;
+    height: 45%;
     border: 1px solid black;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    background-color: white;
+    box-shadow: 0 15px 60px 0 #1da1f226;
 }
 
 .cardHeader, .cardBody, .cardFooter {
+    position: relative;
     padding: 16px;
-    display: flex;
 }
 
 .face {
@@ -67,20 +56,24 @@ body {
     height: 100px;
     border-radius: 50%;
     margin-bottom: 8px;
-    padding: 8px;
+    padding: 10px;
 }
 
 .userDescription{
-    display: grid;
+    position: absolute;
+    top: 30%;
+    left: 125px;
+    margin: 0;
+}
+
+.twitterLogo{
+    position: absolute;
+    right: 30px;
+    top: 30%;
 }
 
 .cardBody {
     border-bottom: 1px solid #e1e8ed;
-}
-
-.cardFooter {
-    display: flex;
-    flex-direction: column;
 }
 
 .twitterLogo, .likes {
@@ -91,7 +84,9 @@ body {
 }
 
 .cardFooter p {
-    margin: 0;
+    position: absolute;
+    left: 50px;
+    top: 27px;
     color: #657786;
 }
 
