@@ -1,90 +1,113 @@
 /*
-p{
+ CSS = Cascading Style Sheets
+
+Seleziona tutti gli elementi <p> e imposta il colore del testo su rebeccapurple 
+p {
     color: rebeccapurple;
 }
-#first-p{
- color: red;
+
+Seleziona l'elemento con id "first-p" e imposta il colore del testo su rosso 
+#first-p {
+    color: red;
 }
-#second-p{
+
+Seleziona l'elemento con id "second-p" e imposta il colore del testo su blu
+#second-p {
     color: blue;
 }
-.first-title{
+
+Seleziona gli elementi con la classe "first-title" e imposta il colore del testo su verde 
+.first-title {
     color: green;
 }
-.second-title{
+
+Seleziona gli elementi con la classe "second-title" e imposta il colore del testo su giallo
+.second-title {
     color: yellow;
 }
-.card{
+
+Seleziona gli elementi con la classe "card" e imposta varie proprietà di stile 
+.card {
     width: 150px;
     height: 200px;
-    background: rgba(255, 255, 255, 0.786);
-    border-radius: 10px;
-    overflow: hidden;
-}
-.card > img{
-    width: 100%;
-    height: 150px;
+    background: rgba(255, 255, 255, 0.786); Colore di sfondo bianco con trasparenza 
+    border-radius: 10px;  Angoli arrotondati 
+    overflow: hidden;  Nasconde il contenuto che eccede i limiti della card 
 }
 
+Seleziona l'elemento <img> che è figlio diretto di un elemento con la classe "card" 
+.card > img {
+    width: 100%; Larghezza dell'immagine uguale alla larghezza della card 
+    height: 150px; Altezza dell'immagine 
+}
+
+Seleziona gli elementi con la classe "text" e imposta varie proprietà di stile 
 .text {
-
-    color:red;
-    color: rgb(255, 0, 0);
-    color: rgba(255, 0, 0.5);
-    
-    color: #7efff5;
-    background-color: #0000ff;
-    display: inline;
+    color: red; Colore del testo rosso (questo valore viene sovrascritto) 
+    color: rgb(255, 0, 0); Colore del testo rosso in formato RGB (questo valore viene sovrascritto) 
+    color: rgba(255, 0, 0, 0.5); Colore del testo rosso con trasparenza (questo valore viene sovrascritto) 
+    color: #7efff5; Colore del testo azzurro (questo è il valore effettivo applicato) 
+    background-color: #0000ff; Colore di sfondo blu 
+    display: inline; Visualizza l'elemento inline
 }
 
-.card{
-    background-color: red;
-    width: 100%;
-    height: 100%;
+Seleziona gli elementi con la classe "card" e sovrascrive alcune proprietà di stile 
+.card {
+    background-color: red; Colore di sfondo rosso 
+    width: 100%; Larghezza 100% del contenitore padre 
+    height: 100%; Altezza 100% del contenitore padre 
 }
 */
-*{
-    box-sizing: border-box;
+
+/* Seleziona tutti gli elementi e imposta la proprietà box-sizing */
+* {
+    box-sizing: border-box; /* Include il padding e il bordo nella larghezza e altezza totale dell'elemento */
 }
 
-body{
-    margin: 0; 
-    height: 100vh;
+/* Seleziona l'elemento body e imposta varie proprietà di stile */
+body {
+    margin: 0; /* Rimuove il margine di default */
+    height: 100vh; /* Altezza 100% della viewport */
 }
 
-#header{
-    width: 100%;
-    height: 10%;
-    border-bottom: 1px solid black;
+/* Seleziona l'elemento con id "header" e imposta varie proprietà di stile */
+#header {
+    width: 100%; /* Larghezza 100% del contenitore padre */
+    height: 10%; /* Altezza 10% del contenitore padre */
+    border-bottom: 1px solid black; /* Bordo inferiore nero */
 }
 
-#main{
-    width: 100%;
-    height: 80%;
-    background-color: azure;
-    padding: 50px;
-    position: relative;
+/* Seleziona l'elemento con id "main" e imposta varie proprietà di stile */
+#main {
+    width: 100%; /* Larghezza 100% del contenitore padre */
+    height: 80%; /* Altezza 80% del contenitore padre */
+    background-color: azure; /* Colore di sfondo azzurro */
+    padding: 50px; /* Padding di 50px */
+    position: relative; /* Posizionamento relativo */
 }
 
-#footer{
-    width: 100%;
-    height: 10%;
-    border-top: 1px solid black;
+/* Seleziona l'elemento con id "footer" e imposta varie proprietà di stile */
+#footer {
+    width: 100%; /* Larghezza 100% del contenitore padre */
+    height: 10%; /* Altezza 10% del contenitore padre */
+    border-top: 1px solid black; /* Bordo superiore nero */
 }
 
-.card{
-    width: 200px;
-    height: 300px;
-    border: 1px solid black;
-    display: inline-block;
-    margin: 0px 50px;
+/* Seleziona gli elementi con la classe "card" e sovrascrive alcune proprietà di stile */
+.card {
+    width: 200px; /* Larghezza 200px */
+    height: 300px; /* Altezza 300px */
+    border: 1px solid black; /* Bordo nero */
+    display: inline-block; /* Visualizza l'elemento come blocco inline */
+    margin: 0px 50px; /* Margine di 50px ai lati */
 }
 
-.button-chat{
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 50px;
-    height: 50px;
-    background-color: aquamarine;
+/* Seleziona gli elementi con la classe "button-chat" e imposta varie proprietà di stile */
+.button-chat {
+    position: fixed; /* Posizionamento fisso */
+    bottom: 0; /* Posizionato in basso */
+    right: 0; /* Posizionato a destra */
+    width: 50px; /* Larghezza 50px */
+    height: 50px; /* Altezza 50px */
+    background-color: aquamarine; /* Colore di sfondo acquamarina */
 }
