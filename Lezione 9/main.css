@@ -77,8 +77,8 @@ body {
 }
 
 .twitterLogo, .likes {
-    width: 24px;
-    height: 24px;
+    width: 30px;
+    height: 30px;
     margin-top: 8px;
     margin-bottom: 8px;
 }
@@ -86,7 +86,7 @@ body {
 .cardFooter p {
     position: absolute;
     left: 50px;
-    top: 27px;
+    top: 30px;
     color: #657786;
 }
 
