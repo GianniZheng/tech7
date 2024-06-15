@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    background-color:#ECF8FF;
+    
+}
+
+.card{
+    position: absolute;
+    top: calc(50% - (228px / 2));
+    left: calc(50% - (601px / 2));
+    width: 601px;
+    height: 228px;
+    border-radius: 10px;
+    box-shadow: 0px 15px 60px 0px #1DA1F226;
+    background-color: #FFFFFF;
+    padding: 35px  31px;
+    font-family: sans-serif;
+}
+
+.header, .main{
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.footer{
+    position: relative;
+    color: #00000099;
+}
+
+.container-username{
+    position: absolute;
+    top: calc(50% - (45px / 2));
+    left: 72px;
+}
+
+.container-username p{
+    color: #00000099;
+}
+
+.twitter-logo{
+    position: absolute;
+    top: calc(50% - (30px / 2));;
+    right: 0;
+    width: 30px;
+    height: 30px;
+    
+}
+
+.profile-photo{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.higthlight{
+    color: #1da1f2;
+}
+
+.container-likes{
+    position: relative;
+}
+
+.heart-logo{
+    width: 24px;
+    height: 24px;
+}
+
+.likes-counter{
+    position: absolute;
+    top: calc(50% - (18px / 2));
+    left: 30px;
+}
+
+.date{
+    position: absolute;
+    top: calc(50% - (18px / 2));
+    left: 65px;
+}
+
