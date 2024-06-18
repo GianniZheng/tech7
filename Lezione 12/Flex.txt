@@ -1,0 +1,46 @@
+CSS : Flex
+
+.div{
+    display : flex;
+    ........(flex)
+}
+
+TYPE OF FLEX:
+
+# PROPRIETA' DEL PADRE
+
+justify-content:flex-start;
+justify-content:flex-end;
+justify-content:space-between;
+justify-content:space-around;
+justify-content:center;
+
+align-items:flex-start;
+align-items:flex-end;
+align-items:baseline;
+align-items:stretch; => default
+align-items:center;
+
+align-content:flex-start;
+align-content:flex-end;
+align-content:space-evenly;
+align-content:space-around;
+align-content:space-between;
+align-content:center;
+
+flex-wrap: wrap;
+flex-wrap: wrap-reverse;
+flex-wrap: no-wrap;
+
+flex-direction: row;
+flex-direction: row-reverse;
+flex-direction: column;
+flex-direction: column-reverse;
+
+flex-flow: row wrap; => direction+wrap
+flex-flow: column no-wrap;
+
+# PROPRIETA' DEI FIGLI
+order: 2; => un intero qualsiasi, default=0
+
+NOTA : gioco online su flex "https://flexboxfroggy.com/"
