@@ -79,6 +79,13 @@
     padding: 0;
 }
 
-li{
+.footer img{
+    width: 54px;
+    height: 54px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid #2D3944;
+    background-color: #222C36;
     display: inline-block;
+    margin: 3px;
 }
