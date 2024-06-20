@@ -1,0 +1,108 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+/*
+<header class="header">
+            <div class="User">
+                <h3 class="username">Minecraft</h3>
+                <img src="https://www.minecraft.net/content/dam/minecraftnet/games/minecraft/key-art/Homepage_Discover-our-games_MC-Vanilla-KeyArt_864x864.jpg" alt="Minecraft profile img" class="profile-img">
+                <div class="status"></div>
+            </div>
+            <p class="userDescription">Bedrock edition 1.9</p>
+        </header>
+        <footer class="footer">
+            <h2 class="title">INVENTORY</h2>
+            <img src="minecraft_pickaxe.jpg" alt="fist slot">
+            <img src="minecraft_salmon.jpg" alt="second slot">
+            <img src="minecraft_totem.jpg" alt="third slot">
+            <img src="minecraft_fishrod.jpg" alt="fourth slot">
+            <img src="minecarft_bow.jpg" alt="fifth slot">
+            <img src="minecraft_endereye.jpg" alt="sixth slot">
+        </footer>
+        */
+.MinecraftCard{
+    width: 450px;
+    height: 272px;
+    border-radius: 10px;
+    background-color: #171E25;
+    border: 4px solid #2D3944;
+    padding: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.User{
+    position: relative;
+    width: 110px;
+    height: 110px;   
+}
+
+.username{
+    position: absolute;
+    background-color: #2D3944;
+    box-shadow: 2px 2px 4px 0px #00000033;
+    color: #0093D5;
+    border-radius: 4px;
+    padding: 4px 12px;
+}
+
+.profile-img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 4px solid #2D3944;
+}
+
+.status{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 30px;
+    height: 30px;
+    border: 8px solid #171E25;
+    border-radius: 50%;
+    background-color: #5CBD52;
+}
+
+.userDescription{
+    width: 250px;
+    height: 110px;
+    padding: 4px 12px;
+    border-radius: 16px;
+    border: 2px solid #2D3944;
+    color: #BCDAF5;
+    font-size: 14px;
+}
+
+.title{
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #0093D5;
+}
+
+.inventory{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer img{
+    width: 54px;
+    height: 54px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid #2D3944;
+    background-color: #222C36;
+}
