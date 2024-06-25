@@ -79,6 +79,11 @@ body{
     padding: 10px;
 }
 
+.icons svg{
+    width: 16px;
+    height: 14px;
+}
+
 .main{
     font-size: 20px;
     font-family: "Inter";
