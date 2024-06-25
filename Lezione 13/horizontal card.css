@@ -48,15 +48,16 @@ body{
 .userDescription{
     width: 202px;
     height: 72px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .userDescription h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 32px;
     color:#C85DD3;
 }
 
 .userDescription p{
+    font-family: "Inter";
     font-size: 20px;
     color: #53507E;
 }
