@@ -5,14 +5,14 @@
 
 .container{
     display: flex;
-    flex-direction: space-between;
 }
 
-div{
-    margin: 8px;
+.content{
+    margin: 10px;
     width: 150px;
-    height: 60px;
+    height: 300px;
     background-color: blue;
+    flex-shrink: 0;
 }
 
 @media (max-width: 600px) {
@@ -22,16 +22,16 @@ div{
     }  
 }
 
-@media (min-width: 600px) and (max-width: 728px) {
-    div{
-        display: grid;
-        grid-template-columns: 2fr;
+@media (max-width: 728px) and (max-width: 600px) {
+    .container{
+        display: flex;
+        flex-flow: column wrap;
     }   
 }
 
 @media (max-width: 728px) {
-    div{
-        display: grid;
-        grid-template-rows: 1fr;
+    .container{
+        display: flex;
+        flex-direction: row;
     }   
 }
