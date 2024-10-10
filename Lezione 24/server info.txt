@@ -1,0 +1,6 @@
+server =  un processo o programma in ascolto delle info da parte dell'utente
+const express = require("express") implementa e include le funzioni della classe eexpress o di express
+app = expresa() consente l'utilizzo delle funzioni di express
+app.listen ((req, res), ()=> ) fa partire il nostro il server
+get manda una richiesta di qualcosa (richiesta al server che risponde)
+post manda una richiesta di invio (invia)
